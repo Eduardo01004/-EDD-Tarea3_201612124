@@ -1,0 +1,20 @@
+digraph ArbolABB {
+ rankdir=TB;
+ graph [splines=ortho, nodesep=0.5];
+node [shape = record, style=filled, fillcolor=seashell2,width=0.7,height=0.2];
+Boo[ label="<C0>|Nombre:Boo|<C1>"];
+Boo -> Kamek;
+ Kamek[ label="<C0>|Nombre:Kamek|<C1>"];
+edd[ label="<C0>|Nombre:edd|<C1>"];
+edd -> Boo;
+ fermin[ label="<C0>|Nombre:fermin|<C1>"];
+fermin -> edd;
+ hammer[ label="<C0>|Nombre:hammer|<C1>"];
+hammer -> fermin;
+ luigi[ label="<C0>|Nombre:luigi|<C1>"];
+luigi -> star;
+ luigi -> hammer;
+ star[ label="<C0>|Nombre:star|<C1>"];
+star -> whomp;
+ whomp[ label="<C0>|Nombre:whomp|<C1>"];
+}

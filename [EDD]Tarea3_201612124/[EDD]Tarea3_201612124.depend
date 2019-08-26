@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1566775510 source:c:\users\eduardo\desktop\edd2019\[edd]tarea3_201612124\main.cpp
+	<iostream>
+	"ArbolABB.h"
+
+1566774134 source:c:\users\eduardo\desktop\edd2019\[edd]tarea3_201612124\src\nodoabb.cpp
+	"NodoABB.h"
+	<stdlib.h>
+
+1566774071 c:\users\eduardo\desktop\edd2019\[edd]tarea3_201612124\include\nodoabb.h
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	<ctype.h>
+	<fstream>
+	<iomanip>
+
+1566775467 c:\users\eduardo\desktop\edd2019\[edd]tarea3_201612124\include\arbolabb.h
+	<iostream>
+	<string.h>
+	"NodoABB.h"
+
+1566775987 source:c:\users\eduardo\desktop\edd2019\[edd]tarea3_201612124\src\arbolabb.cpp
+	"ArbolABB.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	<ctype.h>
+	<fstream>
+	<iomanip>
+
